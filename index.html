@@ -3,14 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Three.js Project</title>
+    <title>Activity 3</title>
   </head>
   <body>
-    <!-- The div where the 3D canvas will be rendered -->
+
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
     <div id="app">
       <canvas class="webgl"></canvas>
     </div>
-    <!-- Linking to the main.js script -->
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
